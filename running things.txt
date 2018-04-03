@@ -1,0 +1,13 @@
+$env:IS_MINER = "False" 
+$env:MY_PORT = 5001 
+python main.py
+
+
+$env:IS_MINER = "True" 
+$env:MY_PORT = 5002 
+python main.py
+
+
+$env:IS_MINER = "True" 
+$env:MY_PORT = 5003 
+python main.py
